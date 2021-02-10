@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/bensaadmucret/portfolio-Creative/issues"
   },
-  "homepage": "https://github.com/bensaadmucret/portfolio-Creative#readme"
+  "homepage": "https://github.com/bensaadmucret/portfolio-Creative#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
 }
