@@ -1,0 +1,27 @@
+{
+  "name": "portfoliocreative",
+  "version": "1.0.0",
+  "description": "Bachelor Développeur d'application web [] Évaluation d'entraînement - Créer un site web avec HTML, CSS et le Framework Bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensaadmucret/portfolio-Creative.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "et",
+    "le",
+    "Framework",
+    "Bootstrap"
+  ],
+  "author": "Mohammed Bensaad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bensaadmucret/portfolio-Creative/issues"
+  },
+  "homepage": "https://github.com/bensaadmucret/portfolio-Creative#readme"
+}
