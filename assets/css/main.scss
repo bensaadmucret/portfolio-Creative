@@ -16,5 +16,22 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+.icon-adobe-portfolio{
+ 
+  fill:#fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  
+}
+.nav-item > a {
+  color: #fff;
+}
+
+signin-wrapper{
+  fill: #fff;
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

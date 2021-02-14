@@ -7,6 +7,19 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+.icon-adobe-portfolio {
+  fill: #fff; }
+
+.nav {
+  display: flex;
+  align-items: center; }
+
+.nav-item > a {
+  color: #fff; }
+
+signin-wrapper {
+  fill: #fff; }
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
