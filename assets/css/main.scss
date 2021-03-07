@@ -20,6 +20,19 @@ html {
   fill: #fff;
 }
 
+#top-menu{
+  background: #0768de;
+  -webkit-box-shadow: 0 6px 6px -6px #000;
+  -moz-box-shadow: 0 6px 6px -6px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  transition: background 0.3s ease;
+  width: 100%;
+  z-index: 2;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -40,8 +53,7 @@ html {
 }
 
 .base-ligne {
-  padding-top: 8%;
-  padding-bottom: 15%;
+  padding-bottom: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,10 +62,29 @@ html {
 
 .base-ligne > h1 {
   color: #fff;
+  display: block;
   font-size: 66px;
   font-weight: 200;
   line-height: 65px;
   text-align: center;
+  max-width: 80%;
+}
+
+.hero{
+  color: #9fc1ea;
+  background-color:  #0654b3;
+}
+
+h1 .title-header{
+  font-size: 66px;
+  font-weight: 200;
+  line-height: 65px;
+  margin: 0 auto;
+}
+
+.subheader{
+  font-size: 110%;
+  margin: 20px 0 45px;
 }
 
 .myButton {
@@ -63,7 +94,7 @@ html {
   display: inline-block;
   cursor: pointer;
   color: #625fbf;
-  font-family: Arial;
+  font-family: "Adobe Clean", sans-serif;
   font-size: 17px;
   padding: 16px 31px;
   text-decoration: none;
@@ -78,9 +109,26 @@ html {
 }
 
 .light-shadow {
-  -webkit-box-shadow: 0 6px 6px -6px #aaa;
-  -moz-box-shadow: 0 6px 6px -6px #aaa;
-  box-shadow: 0 6px 6px -6px #aaa;
+  -webkit-box-shadow: 0 6px 6px -6px #000;
+  -moz-box-shadow: 0 6px 6px -6px #000;
+  box-shadow: 0 6px 6px -6px #000;
+}
+
+#illustratio-folio {
+  background: url("https://pro2-ui-assets-s3-fy.myportfolio.com/500ccd2/src/img/marketing/illustration-centered-masthead-mobile.png");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#illustratio-folio {
+  display: block;
+  left: 0;
+  opacity: 0.8;
+  bottom: -194px;
+  width: 100%;
+  background-color: #0654b3;;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
